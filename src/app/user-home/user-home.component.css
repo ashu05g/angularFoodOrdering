@@ -1,0 +1,328 @@
+header .tagline
+{
+    text-align:center;
+    font-family:'Pacifico' ,cursive;
+    color:rgb(0,0,0);
+    font-size:20px;
+    padding-bottom:8px;
+    padding-top:5px;
+    margin:0px; 
+}
+
+.navbar{
+    padding:0px;
+}
+ .sitename{
+    color:#f5b505;
+    font-family: 'Lobster', cursive;
+    margin:0px;
+    padding:5px;
+    font-size:30px;
+ }
+
+nav div div#collapsibleNavbar #logout{
+    padding-right:20px;
+    padding-left:20px;
+    border-radius:20px;
+    border-width: 3px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+nav div div a:hover{
+    color:#f2cc61;
+ }
+
+ div.navbar-header{
+    display:inline;
+}
+
+nav div div#collapsibleNavbar li a.navpage{
+    color:#e0e0e0;
+    font-family: 'Chilanka', cursive;
+    position: relative;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size:19px;
+    margin-top:5px;
+    transition:font-size 0.3s;
+}
+ul li.listbutton{
+    padding-top:0px;
+}
+
+nav div div#collapsibleNavbar li a.navpage:hover{
+    font-size:21px;
+    text-decoration: none;
+    color:#ffffff;
+    border-bottom:2px solid #f5b505;
+}
+ul li a.active{
+    font-size:21px;
+    color:#ffffff;
+    border-bottom:2px solid #f5b505;
+}
+nav div ul li{
+    margin-top:5px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+.fa.fa-navicon {
+color:white;
+}
+
+
+.welcome{
+    margin:0px;
+    height: 70px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    color:#f5b505;
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+.site-footer
+{
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+.site-footer hr
+{
+    border-top-color:#bbb;
+    opacity:0.5
+}
+.site-footer hr.small
+{
+    margin:20px 0
+}
+.site-footer h6
+{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+.site-footer a
+{
+    color:#737373;
+}
+.site-footer a:hover
+{
+    color:#f5b505;
+    text-decoration:none;
+}
+.footer-links
+{
+    padding-left:0;
+    list-style:none
+}
+.footer-links li
+{
+    display:block
+}
+.footer-links a
+{
+    color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+    color:#f5b505;
+    text-decoration:none;
+}
+.footer-links.inline li
+{
+    display:inline-block
+}
+.site-footer .social-icons
+{
+    text-align:right
+}
+.site-footer .social-icons a
+{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+}
+.copyright-text
+{
+    margin:0
+}
+@media (max-width:991px)
+{
+    .site-footer [class^=col-]
+    {
+       margin-bottom:30px
+    }
+}
+@media (max-width:767px)
+{
+    .site-footer
+    {
+        padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+        text-align:center
+    }
+}
+.social-icons
+{
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.social-icons li
+{
+    display:inline-block;
+    margin-bottom:4px
+}
+.social-icons li.title
+{
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+}
+.social-icons a{
+    background-color:#eceeef;
+    color:#ffffff;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+    color:#fff;
+    background-color:#f5b505;
+}
+.social-icons.size-sm a
+{
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+}
+.social-icons a.facebook:hover
+{
+    background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+    background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+    background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+    background-color:#ea4c89
+}
+.searchbar
+{
+	position: absolute;
+  	top:300px;
+  	left: 400px;
+	max-width:700px;
+	background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 4px 2px 4px 0px;
+	padding: 16px;
+	z-index: 10;
+	border-radius: 4px;
+}
+#sel1 option:hover
+{
+    background-color: #fff;
+    color:#33353d;
+}
+.hotel-link
+{
+    display:block;
+    padding:5px;
+    height:100%;
+    width:100%;
+    text-decoration:none;
+    cursor: pointer;
+    border:3px solid gray;
+    border-radius: 3px;
+}
+.hotelName
+{
+    color:#000;
+    font-weight: bold;
+}
+.hotelAddress
+{
+    color:gray;
+    font-weight: bold;
+}
+.manage a
+{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color:gray;
+}
+.manage a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:#f5b505;
+    background-color: black;
+    border-radius: 7px;
+}
+.manage button
+{
+    font-weight: bold;
+    font-family:cursive;
+    color:black;
+    margin:5px;
+}
+
+.hotelButton
+{
+    font-weight: bold;
+    font-family:cursive;
+    color:black;
+    margin:5px;
+}
+.menu-link
+{
+    display:block;
+    padding:5px;
+    height:100%;
+    width:100%;
+    text-decoration:none;
+    border:3px solid gray;
+    border-radius: 3px;
+}
+.order-link
+{
+    display:block;
+    padding:5px;
+    height:100%;
+    width:100%;
+    text-decoration:none;
+    border:3px solid gray;
+    border-radius: 3px;
+}

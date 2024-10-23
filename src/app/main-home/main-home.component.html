@@ -1,0 +1,232 @@
+<!--Header Section Starts-->
+<header>
+    <div class="container-fluid" >
+      <div class="row" style="background-color:#ffc107">
+        <div class="col-md-12">
+          <p class="tagline">take a break from kitchen, to enjoy our delicious services</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header Section Ends-->
+  <!--Navigation Section Starts-->
+  <nav class="navbar navbar-expand-xl sticky-top navbar-dark" style="background-color:#000000;">
+    <div class="container-fluid">
+                  
+          <div class="navbar-header">
+              <a class="navbar-brand sitename" href="#" style="color:#f5b505">
+              <img src="/assets/img/logo1.png" alt="logo" height="52" width="72" style="padding:0px;margin:0px;">
+            Orderista</a>
+          </div>
+                  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"> <i class="fa fa-navicon"></i></span>
+          </button>
+  
+                  
+  
+          <div class="collapse navbar-collapse" style="width:100%;" id="collapsibleNavbar">
+              <ul class="navbar-nav mr-auto">
+              
+                <li><a href="#Home" class="navpage">Home</a></li>
+                <li><a href="#OurService" class="navpage">Our Services</a></li>
+                <li><a href="#OurGoals" class="navpage">Our Goals</a></li>
+                <li><a href="#AboutUs" class="navpage">About Us</a></li>
+                <li><a href="#AboutUs" class="navpage">Contact Us</a></li>
+              </ul>
+                  
+              <ul class="navbar-nav">
+                  <li class="listbutton">
+                    <button id="signinBtn" type="button" class="btn btn-outline-warning" (click)="onSignin()">SIGN-IN</button>
+                    <button id="loginBtn" type="button" class="btn btn-outline-warning" (click)="onLogin()">LOGIN</button>
+                  </li>
+              </ul>
+        </div>
+              
+      </div>
+  </nav>
+  <!--Navigation Section Ends-->
+
+  <!--Slide Show-->
+<div id="foodslideshow" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+  <li data-target="#foodslideshow" data-slide-to="0" class="active"></li>
+  <li data-target="#foodslideshow" data-slide-to="1"></li>
+  <li data-target="#foodslideshow" data-slide-to="2"></li>
+  <li data-target="#foodslideshow" data-slide-to="3"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="assets/img/food1.jpg" width="100%" style="height: 37vw"> 
+    <div class="carousel-caption" id="food-caption" style="background-color:rgba(0,0,0,0.7);">
+        <h1 style="margin: auto;">Quality Food Delivered</h1>
+        <p>The food delivered by our company looks like it comes from restaurant's kitchen just a second before.The restaurants and hotels connected with us prepares delisious, higine and quality food with great & expert chefs...</p>
+     </div>  
+  </div>
+  <div class="carousel-item">
+    <img src="assets/img/food2.jpg" width="100%" style="height: 37vw">
+    <div class="carousel-caption" id="food-caption" style="background-color:rgba(0,0,0,0.7);">
+      <h1 style="margin: auto;">Quality Food Delivered</h1>
+      <p>The food delivered by our company looks like it comes from restaurant's kitchen just a second before.The restaurants and hotels connected with us prepares delisious, higine and quality food with great & expert chefs...</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="assets/img/food3.jpg" width="100%" style="height: 37vw">
+    <div class="carousel-caption" id="food-caption" style="background-color:rgba(0,0,0,0.7);">
+      <h1 style="margin: auto;">Quality Food Delivered</h1>
+      <p>The food delivered by our company looks like it comes from restaurant's kitchen just a second before.The restaurants and hotels connected with us prepares delisious, higine and quality food with great & expert chefs...</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="assets/img/food4.jpg" width="100%" style="height: 37vw">
+    <div class="carousel-caption" id="food-caption" style="background-color:rgba(0,0,0,0.7);">
+      <h1 style="margin: auto;">Quality Food Delivered</h1>
+      <p>The food delivered by our company looks like it comes from restaurant's kitchen just a second before.The restaurants and hotels connected with us prepares delisious, higine and quality food with great & expert chefs...</p>
+    </div>
+  </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#foodslideshow" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#foodslideshow" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="container">
+  <div class="row" id=Home>
+    <div class="col-md-2"></div>
+    <div class="col-md-8 about">
+      <div style="text-align: center;"><img src="assets/img/decor1.png" alt="decor" height="10px" width="100px"></div>
+      <p class="welcome"> Welcome to Orderista!</p>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-1" ></div>
+    <div class="col-md-10 " style="font-family:'Dancing Script', cursive;">
+      <p>Orderista belives that break is needed in any kind of work , even for cooking. So take a break from your kitchen and oder your favrouit from from yoy favrouit restaurant.
+        Orderista is transforming the way food move around cities by enabling anyone to have anything delivered on-demand. Our revolutionary Urban Logistics platform connects customers with local couriers who can deliver anything from any restaurant in minutes. We encourage people to fill your stomach with no waiting, and empower businesses through our API to offer delivery. </p>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <br><br>
+  <div id="OurService"  style="border-color:darkorange;border-style: double; border-width: 3px;">
+    
+    <div style="justify-content: center; display:flex;font-family: 'Courgette', cursive;font-size: 40px"><p>Our Services</p></div>
+    
+    <div class="row" style="justify-content: center; display:flex;">
+     <div class="col-md-1"></div>
+      <div class="col-md-2">
+          <div  style="width: 10vm;border-width: 0px">
+              <img src="assets/img/fastdelivery.png" alt="Card image cap" height="50%" width="50%">
+             
+          </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
+          <div  style="width: 10vw; padding-left: 25px;">
+              <img  src="assets/img/restaurant.jpg" alt="Card image cap" height="50%" width="50%">
+          </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
+          <div  style="width: 10vw;">
+              <img  src="assets/img/gift.png" alt="Card image cap" height="50%" width="50%">
+          </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
+          <div  style="width: 11vw;border-width: 0px">
+              <img  src="assets/img/hotandfresh.png" alt="Card image cap" height="50%" width="50%">
+          </div>
+      </div>
+      
+    </div>
+    <div class="row" style="justify-content: center; display:flex;">
+        <div class="col-md-1"></div>
+         <div class="col-md-2">
+             <div  style="width: 10vm;border-width: 0px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Fast Delvery</div>
+         </div>
+         <div class="col-md-1"></div>
+         <div class="col-md-2">
+            <div  style="width: 10vm;border-width: 0px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Best Restaurants</div>
+         </div>
+         <div class="col-md-1"></div>
+         <div class="col-md-2">
+            <div  style="width: 10vm;padding-left: 5px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Gifting</div>
+         </div>
+         <div class="col-md-1"></div>
+         <div class="col-md-2">
+            <div  style="width: 10vm;border-width: 0px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Hot And Fresh</div>
+         </div>
+         
+       </div>
+  </div>
+<br><br>
+
+<div id="OurGoals" style="border-color:darkorange;border-style: double; border-width: 3px;">
+      
+  <div class="row" >
+      <div class="card mb-3" style="left: 100px;top:10px ;border-width:0px; max-width: 700px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="assets/img/delivery.jpg" class="card-img" height="150px" width="90px">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" style="font-family: 'Courgette', cursive;font-size: 40px">Our Goals</h5>
+                <p class="card-text">Our Goal is to provide:<br>-Food Quality.-Employee Development.-Reasonable.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+</div>
+<br><br>
+
+<!--Footer-->
+<footer class="site-footer">
+    <div id="aboutUs" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h6>About Us</h6>
+          <p class="text-justify">Orderista belives that break is needed in any kind of work , even for cooking. So take a break from your kitchen and oder your favrouit from from yoy favrouit restaurant.</p>
+        </div>
+
+        <div class="col-md-3"></div>
+
+        <div class="col-xs-6">
+          <h6>Contact Us</h6>
+            <div><img src="assets/img/call2.png" height="40px" width="40px"><span style="padding-left: 10px;">+91 9924106383, +91 7016375925</span></div>
+            <div><img src="assets/img/email.png" height="40px" width="40px"><span style="padding-left: 10px;">orderistaFoods@gmail.com</span></div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
+            <a href="#">Orderista</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <ul class="social-icons">
+            <li><a class="facebook fa fa-facebook" href="#"></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
